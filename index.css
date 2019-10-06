@@ -1,0 +1,30 @@
+main {
+    text-align: center;
+  }
+  
+  #profile-pic {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  
+#profile-pic:hover {
+    transform: scale(1.1);
+  }
+  
+  #language-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-gap: 10px; */
+  }
+  
+  img {
+      width: 50%;
+      border-image: 3px;
+      border-style: solid;
+      border-color: #add3cb;
+      border-radius: 25%;
+  }

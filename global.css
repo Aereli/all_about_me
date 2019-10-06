@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color: #8a9990;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+li { 
+    list-style-type: none;
+}
+  * {
+      list-style-type: none;
+  }
+  a{
+      text-decoration: none;
+      
+
+  }
+
+main {
+    margin-top: 65px; 
+  }
+  
