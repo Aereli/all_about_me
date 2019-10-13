@@ -1,7 +1,12 @@
 body {
     margin: 0;
-    background-color: #8a9990;
+    background-color: #566159;
     font-family: 'Josefin Sans', sans-serif;
+    transition: background-color 2s;
+
+  }
+  body.dark{
+    background-color: #8a9990;
   }
 li { 
     list-style-type: none;
@@ -11,10 +16,7 @@ li {
   }
   a{
       text-decoration: none;
-      
-
   }
-
 main {
     margin-top: 65px; 
   }

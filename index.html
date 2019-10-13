@@ -6,42 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>All about me!</title>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="global.css">    
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="css/global.css">    
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
-<body>
+<body class="dark">
     <nav>
-        <ul>
+        <ul class="nav-bar">
             <li><a href="index.html" class="current-page">Home</a></li>
             <li><a href="contact.html" class="current_page">Contact</a></li>
         </ul>
     </nav>
         <main>
         <h1>eric oyanadel</h1>
-            <img id="profile-pic" src="me.jpg" alt="me"/>
+            <img class="profile-pic" id="profile-pic" src="images/profile_pic_low.jpg" alt="me"/>
                 <p>I am learning at 
             <a href="https://wyncode.co" target="_blank"> Wyncode Academy</a>
                 </p>
+                <button id="lightswitch">Click Me</button>
             <div>
                 <p>Some Languages that I am currently learning</p>
                 <ul id="language-list">
-                    <li>
+                    <li >
                         <h3>Ruby</h3>
-                        <img src="ruby.jpg" alt="ruby"/>
+                        <a href="iamges/ruby.jpg"> <img src="images/ruby.jpg" alt="ruby"/></a>
                     </li>
                     <li>
                         <h3>JavaScript</h3>
-                        <img src="js.jpg" alt="js">
+                        <img src="images/js.jpg" alt="js">
                     </li>
                     <li>
                         <h3>Python</h3>
-                        <img src="python.jpg" alt="python">
+                        <img src="images/python.jpg" alt="python">
                     </li>
                 </ul>
             </div>
         </main>
+        
+        <script src="style.js"></script>
     </body>
 </html>                                 
 
